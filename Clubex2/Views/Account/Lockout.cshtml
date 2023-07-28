@@ -1,0 +1,13 @@
+﻿@{
+    ViewData["Title"] = "Locked out!";
+    Layout = "~/Views/Shared/_LoginLayout.cshtml";
+}
+
+<header>
+    <h2 class="text-danger">@ViewData["Title"]</h2>
+    <p class="text-danger">Your session has expired!</p>
+    <p>
+        <a asp-action="Login">Click here to login again</a>
+    </p>
+    <p><br /> or click on the logo to return to home page</p>
+</header>
